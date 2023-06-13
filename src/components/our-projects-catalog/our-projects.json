@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_our_projects_catalog_our_projects",
+  "info": {
+    "displayName": "ourProjects"
+  },
+  "options": {},
+  "attributes": {
+    "projectCatalog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.our-projects"
+    },
+    "seeAllProjectsButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

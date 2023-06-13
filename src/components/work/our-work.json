@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_work_our_works",
+  "info": {
+    "displayName": "ourWork",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "technology": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

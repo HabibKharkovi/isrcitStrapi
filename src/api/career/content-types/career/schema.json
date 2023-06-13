@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "Career Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "careerHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero-top.hero"
+    },
+    "careerHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero-button.hero-with-button"
+    },
+    "vacantPos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vacant-posi.vacant-pos"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "FooterTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero-top.hero"
+    },
+    "FooterBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

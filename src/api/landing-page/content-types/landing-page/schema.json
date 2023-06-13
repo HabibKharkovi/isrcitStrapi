@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "review.reviews"
+    },
+    "ourTechStack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tech-stack.tech-stack"
+    },
+    "projectsCatalog": {
+      "type": "component",
+      "repeatable": false,
+      "component": "our-projects-catalog.our-projects"
+    },
+    "landingPageHead": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero-top.hero"
+    },
+    "topImages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gallery.gallery"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services-component.services-component"
+    },
+    "topText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "rich-text.rich-text"
+    },
+    "recentWCC": {
+      "type": "component",
+      "repeatable": false,
+      "component": "recent-w.recent-w"
+    }
+  }
+}

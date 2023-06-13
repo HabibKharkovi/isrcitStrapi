@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_rich_text_rich_texts",
+  "info": {
+    "displayName": "RichText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "Title": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

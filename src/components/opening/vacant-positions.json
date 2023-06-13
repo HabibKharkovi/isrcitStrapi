@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_opening_vacant_positions",
+  "info": {
+    "displayName": "vacantPositions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Position": {
+      "type": "string"
+    },
+    "locationType": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

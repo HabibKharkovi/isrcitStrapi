@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_teams",
+  "info": {
+    "singularName": "our-team",
+    "pluralName": "our-teams",
+    "displayName": "About Us Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "teamComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "developer.our-team"
+    },
+    "topHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero-top.hero"
+    },
+    "teamHead": {
+      "type": "component",
+      "repeatable": false,
+      "component": "rich-text.rich-text"
+    },
+    "aboutRichBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-rich-text.about-rich-text"
+    },
+    "joinOurTeam": {
+      "type": "component",
+      "repeatable": false,
+      "component": "join-team.join-team"
+    },
+    "teamHeadD": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero-top.hero"
+    }
+  }
+}

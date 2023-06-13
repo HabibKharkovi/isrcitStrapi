@@ -1,0 +1,19 @@
+{
+  "collectionName": "whatWeDoMainComponent",
+  "info": {
+    "displayName": "whatWeDoComponent"
+  },
+  "options": {},
+  "attributes": {
+    "pageHead": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero-top.hero"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq"
+    }
+  }
+}

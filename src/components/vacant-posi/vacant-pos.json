@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_vacant_posi_vacant_pos",
+  "info": {
+    "displayName": " vacantPos"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "locationType": {
+      "type": "string"
+    },
+    "hiringBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

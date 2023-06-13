@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_about_rich_text_about_rich_texts",
+  "info": {
+    "displayName": "aboutRichText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "richText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text-with-image.text-image"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feature.feature"
+    }
+  }
+}

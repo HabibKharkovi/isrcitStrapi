@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "what_we_dos",
+  "info": {
+    "singularName": "what-we-do",
+    "pluralName": "what-we-dos",
+    "displayName": "what We Do Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainFaqPage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "what-we-wo-component.what-we-do-component"
+    }
+  }
+}

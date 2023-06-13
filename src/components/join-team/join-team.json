@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_join_team_join_teams",
+  "info": {
+    "displayName": "joinTeam"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.single-text"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

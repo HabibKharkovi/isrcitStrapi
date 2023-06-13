@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_hero_button_hero_with_buttons",
+  "info": {
+    "displayName": "heroWithButton"
+  },
+  "options": {},
+  "attributes": {
+    "titleDesc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero-top.hero"
+    },
+    "heroBtn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    }
+  }
+}

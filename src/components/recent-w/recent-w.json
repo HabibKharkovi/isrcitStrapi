@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_recent_w_recent_ws",
+  "info": {
+    "displayName": "recentW"
+  },
+  "options": {},
+  "attributes": {
+    "blockTitle": {
+      "type": "string"
+    },
+    "recentWC": {
+      "type": "component",
+      "repeatable": true,
+      "component": "work.our-work"
+    }
+  }
+}

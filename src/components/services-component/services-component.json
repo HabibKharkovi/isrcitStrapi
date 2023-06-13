@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_services_component_services_components",
+  "info": {
+    "displayName": "servicesComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "scheduleACall": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "serviceTop": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text-with-image.text-image"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.single-text"
+    }
+  }
+}
