@@ -41,6 +41,11 @@
       "type": "component",
       "repeatable": false,
       "component": "hero-top.hero"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services-component.services-component"
     }
   }
 }
